@@ -12,13 +12,13 @@
       <h1>Navigation & Tabs</h1>
       <div class="container">
         <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
+          <label id="First-name"><p>First Name:</p></label>
+          <input type="text" aria-labelledby="First-name" />
+          <label id= "Last-name"><P>Last Name:</P></label>
+          <input type="text" aria-labelledby="Last-name"/>
           <div onclick="printMessage()" class="button">Submit</div>
         </form>
-        <img src="../assets/images/dog.jpeg" />
+        <img src="../assets/images/dog.jpeg" alt="Dog"  />
       </div>
     </main>
     <script src="./index.js"></script>
